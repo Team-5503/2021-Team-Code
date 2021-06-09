@@ -1,0 +1,9 @@
+1. Leave <I> and <D> at 0. bump P up until it starts to oscillate.
+
+2. Lower <P> to half of that value.
+
+3. Slowly bump variable <I> up until the desired time to target is good for you even if it begins to become unstable.
+
+4. Backoff <I> by a quarter of that value - ensure system is stable and not oscillating.
+
+If necessary, <D> can be adjusted up slightly to eliminate any further overshoot. Too much D and the system will become unstable again.
